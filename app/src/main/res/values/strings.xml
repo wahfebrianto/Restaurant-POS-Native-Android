@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Restaurant POS</string>
+
+    //Navigation
+    <string name="navigation_drawer_open">Buka Panel Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Panel Navigasi</string>
+
+    //Action
+    <string name="action_about">Tentang</string>
+
+    //About Page
+    <string name="about_name">Wahyu Febrianto</string>
+    <string name="about_email">wahfebrianto@gmail.com</string>
+    <string name="about_phone">+6281253131828</string>
+    <string name="about_website"><a href="http://wahfebrianto.github.io/">wahfebrianto.github.io</a></string>
+</resources>

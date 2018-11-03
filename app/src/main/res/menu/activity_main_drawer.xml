@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sale"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Penjualan Baru" />
+        <item
+            android:id="@+id/nav_item"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Data Barang" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Pengaturan" />
+    </group>
+
+    <item android:title="Laporan">
+        <menu>
+            <item
+                android:id="@+id/nav_daily_report"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="Laporan Harian" />
+            <item
+                android:id="@+id/nav_weekly_report"
+                android:icon="@android:drawable/ic_menu_week"
+                android:title="Laporan Mingguan" />
+            <item
+                android:id="@+id/nav_monthly_report"
+                android:icon="@android:drawable/ic_menu_month"
+                android:title="Laporan Bulanan" />
+        </menu>
+    </item>
+
+</menu>
